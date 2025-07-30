@@ -29,7 +29,7 @@ public class GuessTheNumberGame {
 
                 // Check if the guess is correct, too high, or too low
                 if (guess == secretNumber) {
-                    System.out.println("Congratulations! You guessed the number in " + attempts + " attempts.");
+                    System.out.println("Congratulations buddy! You guessed the number in " + attempts + " attempts.");
                 } else if (guess < secretNumber) {
                     System.out.println("Too low! Try again.");
                 } else {
